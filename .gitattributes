@@ -1,0 +1,11 @@
+* text=auto
+
+*.i3d   -text
+*.ma    -text -diff -merge
+
+/.editorconfig export-ignore
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/*.cmd export-ignore
+/.github export-ignore
+/.env.example export-ignore

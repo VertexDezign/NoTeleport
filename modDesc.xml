@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="92">
+    <author>-tinte- / VertexDezign</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>No Teleport</en>
+        <de>Kein Teleportieren</de>
+    </title>
+    <description>
+        <en><![CDATA[No Teleport
+
+The year 3025. There are stories about ancient peoples and their rudimentary methods of transportation. It is said that these people went to their destination by car. Sometimes they also walked. How old-fashioned is that?
+Welcome to 2025... Teleporting is not yet a thing....
+
+Features
+- No "visit" buttons in map
+- No "visit" buttons in production menu
+- No vehicle change by tabbing
+
+For Bugreports please use: https://github.com/VertexDezign/NoTeleport/issues
+]]></en>
+        <de><![CDATA[Kein Teleportieren
+
+Das Jahr 3025. Es gibt Geschichten über alte Völker und ihre rudimentären Transportmethoden. Es wird erzählt, dass diese Menschen mit dem Auto zum Ziel fuhren. Manchmal gingen sie auch zu Fuß. Wie altmodisch ist das denn?
+Willkommen im Jahr 2025... Teleportieren ist noch Zukunftsmusik...
+
+Funktionen
+- Keine "Besuchen"-Schaltflächen auf der Karte
+- Keine "Besuchen"-Schaltflächen im Produktionsmenü
+- Kein Fahrzeugwechsel mit Tab
+
+Fehler bitte hier melden: https://github.com/VertexDezign/NoTeleport/issues
+]]></de>
+    </description>
+    <iconFilename>icon_noTeleport.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/main.lua"/>
+    </extraSourceFiles>
+</modDesc>

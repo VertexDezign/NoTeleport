@@ -1,0 +1,13 @@
+# System stuff
+.DS_STORE
+
+# Build system
+.fsbuild.yml
+FS25_*
+*.zip
+.env
+
+# IDE
+.idea/
+.atom
+*.exe

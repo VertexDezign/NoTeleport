@@ -1,0 +1,28 @@
+---
+name: "tagged-release"
+
+on:
+  push:
+    tags:
+      - "fs25-v*"
+
+jobs:
+  tagged-release:
+    name: "Tagged Release"
+    runs-on: "windows-latest"
+
+    steps:
+      - name: "Checkout source code"
+        uses: "actions/checkout@v3"
+        with:
+          lfs: true
+
+      - run: "./pack.cmd"
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "${{  github.ref_name }}"
+          prerelease: false
+          files: |
+            FS25_NoTeleport.zip
