@@ -27,6 +27,10 @@ function initNoTeleport()
     FerryHotspot.getBeVisited = Utils.overwrittenFunction(FerryHotspot.getBeVisited, NoTeleport.disableFunction)
     Enterable.getIsEnterableFromMenu = Utils.overwrittenFunction(Enterable.getIsEnterableFromMenu, NoTeleport.disableFunction)
     FSBaseMission.loadMapFinished = Utils.appendedFunction(FSBaseMission.loadMapFinished, NoTeleport.loadMapFinished)
+
+    -- Disable teleport to fields the "Holzhammer" way
+    Player.teleportTo = Utils.overwrittenFunction(Player.teleportTo, NoTeleport.disableFunction)
+    Player.teleportToNPC = Utils.overwrittenFunction(Player.teleportToNPC, NoTeleport.disableFunction)
 end
 
 -- Load as early as possible to override the "Enterable" methods
