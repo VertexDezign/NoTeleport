@@ -25,4 +25,4 @@ This is a Mod for Farming Simulator 25.
 
 Have ideas to make the mod even better? Found a bug? Let us know on [Github](https://github.com/VertexDezign/NoTeleport/issues) so we can keep improving the mod together!
 
-[FS25_TargetFillLevel](https://github.com/VertexDezign/NoTeleport/) by [André Buchmann](https://github.com/schliesser/) & [VertexDezign](https://vertexdezign.net/) is licensed under [CC BY NC ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+[FS25_NoTeleport](https://github.com/VertexDezign/NoTeleport/) by [André Buchmann](https://github.com/schliesser/) & [VertexDezign](https://vertexdezign.net/) is licensed under [CC BY NC ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/)
