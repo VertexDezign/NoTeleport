@@ -2,7 +2,6 @@
 No Teleport Mod for Farming Simulator 25
 
 Author: André Buchmann & VertexDezign
-Website: https://vertexdezign.net/
 Issues: https://github.com/VertexDezign/NoTeleport/issues
 
 Feel free to open a pull reuests for enhancements or bugfixes.
